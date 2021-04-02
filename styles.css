@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  width: 100%;
+  height: 50px;
+  background-color: #192a56;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+.contact i {
+  margin-right: 15px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 0 20px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: greenyellow;
+  cursor: pointer;
+  letter-spacing: 0;
+}
+.logo .fa-drupal {
+  font-size: 3rem;
+  margin-right: 20px;
+}
+h2 {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.letterstyle {
+  font-family: "Kaushan Script", cursive;
+  margin: 0 10px 5px;
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 400;
+}
+nav a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: gray;
+  margin: 0px 20px;
+  padding: 10px 20px;
+}
+.menu a:first-child {
+  color: black;
+}
+.menu a:hover {
+  transition: 0.5s ease-in-out;
+  color: black;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background: url("images/sofa.jpg");
+  background-size: 100% 100%;
+  padding-top: 7em;
+}
+header .head {
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-family: "Kaushan Script", cursive;
+  margin-bottom: 30px;
+  font-size: 3rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.head button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color: #192a56;
+  letter-spacing: 4px;
+  border-radius: 5px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.head button:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.05);
+  background-color: #233a74;
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.services > div {
+  flex-basis: 20%;
+}
+
+.services > div img {
+  width: 50%;
+}
+
+.services p {
+  margin-top: 20px;
+  font-size: 15px;
+  color: gray;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 100px;
+  background: rgba(0, 0, 0, 0.03);
+  text-align: center;
+}
+
+.slider > div {
+  flex-basis: 30%;
+}
+
+.slider > div img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 3px 5px gray;
+}
+
+.slider p {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+
+#featured {
+  padding: 10px 0;
+  width: 100%;
+  height: 100vh;
+  background: #192a56;
+}
+#featured h2 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Kaushan Script", cursive;
+}
+.featured-row {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.featured--left--col {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.featured--left--col img {
+  width: 70%;
+  border-radius: 8px;
+  box-shadow: 2px 3px 5px;
+}
+
+.featured--right--col {
+  flex-basis: 60%;
+  color: white;
+  line-height: 2;
+  font-size: 15px;
+}
+
+.wave {
+  position: relative;
+  left: 0;
+  bottom: 105px;
+  width: 100%;
+}
+.testimonial {
+  padding: 90px 100px;
+  text-align: center;
+  width: 100%;
+}
+.testimonial h1 {
+  color: black;
+  margin-bottom: 60px;
+}
+
+.testimonial span {
+  color: #192a56;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  width: 300px;
+  height: 300px;
+}
+.swiper-slide p {
+  position: absolute;
+  bottom: 0;
+  left: 37%;
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+  background: #192a56;
+  width: 300px;
+}
+.contact-info {
+  padding: 50px 100px;
+  background: #f3f4f5;
+}
+
+.contact-info h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact-info span {
+  color: #192a56;
+}
+.contact-row {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-row iframe {
+  border-radius: 8px;
+}
+
+.contact-row .col2 {
+  padding: 0 100px;
+}
+
+.contact-row input[type="text"] {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.contact-row textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.contact-row button {
+  width: 50%;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #192a56;
+  color: white;
+  text-align: center;
+  outline: none;
+}
+
+footer {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-around;
+  background: #192a56;
+  color: white;
+  cursor: pointer;
+}
+
+footer h3 {
+  padding: 10px 0px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 15px;
+}
+
+footer p {
+  line-height: 2;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+
+footer p i {
+  margin-right: 15px;
+}
+.particles-js {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
